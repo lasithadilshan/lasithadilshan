@@ -52,5 +52,3 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=lasithadilshan&show_icons=true&locale=en" alt="lasithadilshan" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=lasithadilshan&" alt="lasithadilshan" /></p>
-
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lasithadilshan" alt="Most Used Languages"></p>
