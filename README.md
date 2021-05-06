@@ -25,6 +25,8 @@
 
 - 📄 Know about my experiences [https://www.linkedin.com/in/lasitha-thilakarathna-3027ab120/](https://www.linkedin.com/in/lasitha-thilakarathna-3027ab120/)
 
+- 📄 My Portfolio [https://lasithadilshan.github.io/](https://lasithadilshan.github.io/)
+
 - ⚡ Fun fact **coffee <3**
 
 ### Blogs posts
