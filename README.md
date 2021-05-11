@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=lasithadilshan" alt="lasithadilshan" /></a> </p>
 
-<p align="left"> <a href="https://twitter.com/dilshantilakar1" target="blank"><img src="https://www.svgrepo.com/show/157844/twitter.svg" alt="dilshantilakar1" /></a> </p>
+<p align="left"> <a href="https://twitter.com/dilshantilakar1" target="blank"><img src="https://www.svgrepo.com/show/157844/twitter.svg" alt="dilshantilakar1" height="30" width="30"/></a> </p>
 
 - 🔭 I’m currently working on [HelloWorld](https://github.com/lasithadilshan/HelloWorld)
 
