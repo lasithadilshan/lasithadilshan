@@ -36,7 +36,7 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://dev.to/https://lasitha-dilshan-thilakarathna.business.site/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dev-dot-to.svg" alt="https://lasitha-dilshan-thilakarathna.business.site/" height="30" width="40" /></a>
-<a href="https://twitter.com/dilshantilakar1" target="blank"><img align="center" src="https://i.pinimg.com/474x/ee/4b/ec/ee4bec98e284c251b885707a470ad3b8.jpg" alt="dilshantilakar1" height="30" width="40" /></a>
+<a href="https://twitter.com/dilshantilakar1" target="blank"><img align="center" src="https://i.pinimg.com/474x/ee/4b/ec/ee4bec98e284c251b885707a470ad3b8.jpg" alt="dilshantilakar1" height="30" width="30" /></a>
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/lasitha-thilakarathna-3027ab120/" target="blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/1200px-Linkedin.svg.png" alt="https://www.linkedin.com/in/lasitha-thilakarathna-3027ab120/" height="30" width="30" /></a>
 <a href="https://stackoverflow.com/users/https://stackoverflow.com/users/11256076/lasitha-dilshan-thilakaratne" target="blank"><img align="center" src="https://cdn.iconscout.com/icon/free/png-256/stackoverflow-2752065-2284882.png" alt="https://stackoverflow.com/users/11256076/lasitha-dilshan-thilakaratne" height="30" width="30" /></a>
 <a href="https://fb.com/https://www.facebook.com/lasithadilshantilakaratne/" target="blank"><img align="center" src="https://cdn.worldvectorlogo.com/logos/facebook-3-2.svg" alt="https://www.facebook.com/lasithadilshantilakaratne/" height="30" width="40" /></a>
