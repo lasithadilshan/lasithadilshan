@@ -25,9 +25,9 @@
 
 - 📄 Know about my experiences [https://www.linkedin.com/in/lasitha-thilakarathna-3027ab120/](https://www.linkedin.com/in/lasitha-thilakarathna-3027ab120/)
 
-- 📄 My Portfolio [https://lasithadilshan.github.io/](https://lasithadilshan.github.io/)
+- 🤵🏻 My Portfolio [https://lasithadilshan.github.io/](https://lasithadilshan.github.io/)
 
-- 🇱🇰 My Google Play Store Developer Page [https://play.google.com/store/apps/dev?id=8598412061020641933](https://play.google.com/store/apps/dev?id=8598412061020641933)
+- 🎉 My Google Play Store Developer Page [https://play.google.com/store/apps/dev?id=8598412061020641933](https://play.google.com/store/apps/dev?id=8598412061020641933)
 
 - ⚡ Fun fact **coffee <3**
 
