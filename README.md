@@ -7,7 +7,7 @@
 
 <p align="left"> <a href="https://twitter.com/dilshantilakar1" target="blank"><img src="https://i.pinimg.com/474x/ee/4b/ec/ee4bec98e284c251b885707a470ad3b8.jpg" alt="dilshantilakar1" height="30" width="30"/></a> </p>
 
-- 🔭 I’m currently working on [EmployeeProgressFrontend](https://github.com/lasithadilshan/EmployeeProgressFrontend)
+- 🔭 I’m currently working on [Virtual-fittone-project](https://github.com/lasithadilshan/Virtual-fittone-project)
 
 - 🌱 I’m currently learning **Flutter , Angular , Angular JS , Spring Boot , Dart , Python , React , React-Native , Java , C++**
 
