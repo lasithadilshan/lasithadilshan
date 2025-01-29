@@ -7,7 +7,7 @@
 
 <p align="left"> <a href="https://twitter.com/dilshantilakar1" target="blank"><img src="https://i.pinimg.com/474x/ee/4b/ec/ee4bec98e284c251b885707a470ad3b8.jpg" alt="dilshantilakar1" height="30" width="30"/></a> </p>
 
-- 🔭 I’m currently working on [Portfolio Project](https://github.com/lasithadilshan/lasithathilakarathna)
+- 🔭 I’m currently working on [Portfolio Project](https://github.com/lasithadilshan/lasitha-thilakarathna)
 
 - 🌱 I’m currently learning **Flutter , Angular , Angular JS , Spring Boot , Dart , Python , React , React-Native , Java , C++**
 
