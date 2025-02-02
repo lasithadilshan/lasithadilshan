@@ -9,7 +9,7 @@
 
 - 🔭 I’m currently working on [Portfolio Project](https://github.com/lasithadilshan/lasitha-thilakarathna)
 
-- 🌱 I’m currently learning **Flutter , Angular , Angular JS , Spring Boot , Dart , Python , React , React-Native , Java , C++, Generative Artificial Intelligence**
+- 🌱 I’m currently learning **Flutter , Angular , Angular Material , Angular JS , Spring Boot , Dart , Python, Fast API, Flask API , React , React-Native , Java , C++, Generative Artificial Intelligence**
 
 - 👯 I’m looking to collaborate on [HelloWorld](https://github.com/lasithadilshan/HelloWorld)
 
