@@ -3,7 +3,7 @@
   Welcome to my project portfolio! Below is a showcase of the projects I've worked on, highlighting my expertise in software engineering, frontend/backend development, and Generative AI.
 </h3>
 
-<p align="left"><img src="https://komarev.com/ghpvc/?username=lasithadilshan&label=Profile%20views&color=0e75b6&style=flat" alt="lasithadilshan" /> </p>
+<p align="left"><img src="https://komarev.com/ghpvc/?username=lasithadilshan&label=Profile%20views&color=0e75b6&style=flat" alt="lasithadilshan"/> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=lasithadilshan&no-bg=true&theme=gruvbox" alt="lasithadilshan" /></a> </p>
 
