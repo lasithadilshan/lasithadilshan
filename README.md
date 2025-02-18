@@ -1,6 +1,7 @@
 <h1 align="center">Hi 👋, I'm Lasitha Dilshan Thilakarathna</h1>
+
 <h3 align="center">
-  Welcome to my project portfolio! Below is a showcase of the projects I've worked on, highlighting my expertise in software engineering, frontend/backend development, and Generative AI.
+  Welcome to my project portfolio! Below is a showcase of the projects I've worked on, highlighting my expertise in software engineering, full stack development, and Generative AI.
 </h3>
 
 <p align="left"><img src="https://komarev.com/ghpvc/?username=lasithadilshan&label=Profile%20views&color=0e75b6&style=flat" alt="lasithadilshan"/> </p>
