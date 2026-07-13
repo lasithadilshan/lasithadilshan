@@ -122,18 +122,27 @@ AI platform that transforms candidate resumes into standardized professional CV 
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=lasithadilshan&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+  <img 
+    src="https://github-readme-streak-stats.herokuapp.com/?user=lasithadilshan&theme=tokyonight&hide_border=true" 
+    alt="GitHub Streak" 
+  />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=lasithadilshan&theme=tokyonight" alt="GitHub Streak" />
+  <img 
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lasithadilshan&theme=tokyonight" 
+    alt="GitHub Profile Summary" 
+  />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lasithadilshan&layout=compact&theme=tokyonight" alt="Top Languages" />
+  <img 
+    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lasithadilshan&theme=tokyonight" 
+    alt="Top Languages by Repository" 
+  />
 </p>
 
 ---
