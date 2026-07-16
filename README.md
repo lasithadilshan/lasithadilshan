@@ -166,6 +166,7 @@ AI platform that transforms candidate resumes into standardized professional CV 
 
 ---
 
+
 <p align="center">
   <i>Building intelligent AI-powered solutions with clean engineering, practical innovation, and continuous learning.</i>
 </p>
