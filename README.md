@@ -300,27 +300,26 @@ class LasithaDilshan:
 
 <div align="center">
 
-  <!-- Streak Stats Card -->
-  <img 
-    src="https://github-readme-streak-stats.herokuapp.com/?user=lasithadilshan&theme=tokyonight&hide_border=true" 
-    alt="Lasitha Dilshan GitHub Streak" 
-    width="48%" 
-  />
-  &nbsp;
-  <!-- Profile Summary Details Card -->
+  <!-- Row 1: Profile Summary Details Card (Full-width balanced banner) -->
   <img 
     src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lasithadilshan&theme=tokyonight" 
     alt="Lasitha Dilshan Profile Details" 
-    width="48%" 
+    width="96%" 
   />
 
   <br/><br/>
 
-  <!-- Language Distribution Card -->
+  <!-- Row 2: Streak Stats & Repos Per Language (Proportionally balanced for identical height) -->
+  <img 
+    src="https://github-readme-streak-stats.herokuapp.com/?user=lasithadilshan&theme=tokyonight&hide_border=true" 
+    alt="Lasitha Dilshan GitHub Streak" 
+    width="57.5%" 
+  />
+  &nbsp;
   <img 
     src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lasithadilshan&theme=tokyonight" 
     alt="Lasitha Dilshan Languages by Repo" 
-    width="97%" 
+    width="38.5%" 
   />
 
 </div>
