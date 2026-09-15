@@ -34,50 +34,23 @@
 
 ---
 
-## 💻 System Specification & Profile Persona
+## 💻 Engineering Specification & Profile Telemetry
 
 <div align="center">
-  <img src="./assets/persona.svg" alt="Lasitha Dilshan - System Specification & Persona" width="96%" />
+  <img src="./assets/persona.svg" alt="Lasitha Dilshan - Engineering Specification & Profile Telemetry" width="96%" />
 </div>
 
 <br/>
 
-<details>
-  <summary><b>📋 Click to expand raw Python specification</b></summary>
-  <br/>
-
-```python
-class LasithaDilshan:
-    """
-    AI Engineer & Generative AI Architect with 5+ years of engineering experience
-    bridging foundational AI research with scalable, resilient enterprise software.
-    """
-    def __init__(self):
-        self.name = "Lasitha Dilshan Thilakarathna"
-        self.location = "Bandaragama, Sri Lanka 🇱🇰"
-        self.role = "AI Engineer | Generative AI & Agentic Systems Architect"
-        self.years_in_tech = 5
-        
-        self.core_domains = [
-            "Agentic AI & Autonomous Multi-Agent Workflows",
-            "Production Retrieval-Augmented Generation (RAG)",
-            "Enterprise Document Intelligence & Semantic Search",
-            "LLM Evaluation, Guardrails & Hallucination Mitigation",
-            "High-Throughput Asynchronous AI Backends (FastAPI)"
-        ]
-        
-        self.primary_trophy = "🏆 1st Place Winner – Virtusa Agentic AI Hackathon"
-        self.status = "Open to cutting-edge AI engineering collaborations & impactful roles"
-
-    def philosophy(self) -> str:
-        return (
-            "Moving beyond toy demos into hardened, production-grade AI systems "
-            "equipped with deterministic guardrails, low-latency vector retrieval, "
-            "and measurable business ROI."
-        )
-```
-
-</details>
+| 🌐 Parameter | ⚡ Operational Specification |
+| :--- | :--- |
+| **Full Name** | **Lasitha Dilshan Thilakarathna** |
+| **Core Specialization** | **AI Engineer & Generative AI Architect** |
+| **Experience Depth** | **5+ Years** spanning Full-Stack, Cloud & Production AI Systems |
+| **Primary Accolade** | 🏆 **1st Place Winner** — Virtusa Agentic AI Hackathon |
+| **Architectural Focus** | Autonomous Agents, Enterprise RAG, Vector Search, FastAPI Microservices |
+| **Location & Timezone** | Bandaragama, Sri Lanka 🇱🇰 `(UTC+05:30)` |
+| **Collaboration Status** | 🟢 **Open to high-impact AI Engineering roles, consulting & research** |
 
 ---
 
