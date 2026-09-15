@@ -34,7 +34,17 @@
 
 ---
 
-### 👨‍💻 System Specification & Profile Persona
+## 💻 System Specification & Profile Persona
+
+<div align="center">
+  <img src="./assets/persona.svg" alt="Lasitha Dilshan - System Specification & Persona" width="96%" />
+</div>
+
+<br/>
+
+<details>
+  <summary><b>📋 Click to expand raw Python specification</b></summary>
+  <br/>
 
 ```python
 class LasithaDilshan:
@@ -66,6 +76,8 @@ class LasithaDilshan:
             "and measurable business ROI."
         )
 ```
+
+</details>
 
 ---
 
