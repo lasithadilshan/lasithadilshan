@@ -1,0 +1,338 @@
+<svg fill="none" viewBox="0 0 1000 480" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="arch-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C16"/>
+      <stop offset="50%" stop-color="#0B1224"/>
+      <stop offset="100%" stop-color="#060913"/>
+    </linearGradient>
+
+    <!-- Stage Card Backgrounds -->
+    <linearGradient id="stage-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#131E33" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0E1626" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="cyan-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+
+    <linearGradient id="purple-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#C084FC"/>
+    </linearGradient>
+
+    <linearGradient id="pink-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EC4899"/>
+      <stop offset="100%" stop-color="#F43F5E"/>
+    </linearGradient>
+
+    <linearGradient id="green-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+
+    <!-- Glowing Border -->
+    <linearGradient id="arch-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#EC4899" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <!-- Drop Shadow -->
+    <filter id="arch-shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+
+    <pattern id="arch-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#334155" fill-opacity="0.35"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    .stage-title { font-size: 12px; font-weight: 700; letter-spacing: 1px; }
+    .card-label { font-size: 11px; fill: #64748B; font-weight: 600; letter-spacing: 0.5px; }
+    .card-value { font-size: 12px; fill: #F1F5F9; font-weight: 600; }
+    .card-sub { font-size: 11px; fill: #94A3B8; }
+    
+    @keyframes pulse-flow {
+      0%, 100% { opacity: 0.4; }
+      50% { opacity: 1; }
+    }
+    .flow-pulse { animation: pulse-flow 2.5s infinite ease-in-out; }
+  </style>
+
+  <!-- Container Base -->
+  <rect x="2" y="2" width="996" height="476" rx="14" fill="url(#arch-bg)" filter="url(#arch-shadow)"/>
+  <rect x="2" y="2" width="996" height="476" rx="14" fill="url(#arch-grid)"/>
+  <rect x="2" y="2" width="996" height="476" rx="14" fill="none" stroke="url(#arch-border)" stroke-width="1.5"/>
+
+  <!-- Top Bar -->
+  <g transform="translate(30, 22)">
+    <circle cx="6" cy="6" r="5" fill="#EF4444"/>
+    <circle cx="24" cy="6" r="5" fill="#F59E0B"/>
+    <circle cx="42" cy="6" r="5" fill="#10B981"/>
+
+    <text x="65" y="10" fill="#38BDF8" class="mono" font-size="13" font-weight="800" letter-spacing="2px">
+      ENTERPRISE AGENTIC AI &amp; HYBRID RAG ARCHITECTURE
+    </text>
+
+    <!-- Status Badges -->
+    <g transform="translate(680, -2)">
+      <rect width="135" height="22" rx="4" fill="#064E3B" stroke="#10B981" stroke-width="0.8"/>
+      <circle cx="12" cy="11" r="3.5" fill="#34D399" class="flow-pulse"/>
+      <text x="22" y="15" fill="#D1FAE5" class="mono" font-size="10" font-weight="700">GUARDRAILS: ENFORCED</text>
+    </g>
+
+    <g transform="translate(825, -2)">
+      <rect width="115" height="22" rx="4" fill="#1E1B4B" stroke="#6366F1" stroke-width="0.8"/>
+      <circle cx="12" cy="11" r="3.5" fill="#818CF8"/>
+      <text x="22" y="15" fill="#E0E7FF" class="mono" font-size="10" font-weight="700">EVAL: UQML 99.4%</text>
+    </g>
+  </g>
+
+  <!-- Divider -->
+  <line x1="30" y1="52" x2="970" y2="52" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- ================= 4 ARCHITECTURAL STAGES ================= -->
+
+  <!-- STAGE 1: INGESTION & PROCESSING -->
+  <g transform="translate(30, 70)">
+    <rect width="215" height="315" rx="10" fill="url(#stage-bg)" stroke="#334155" stroke-width="1"/>
+    <!-- Stage Header -->
+    <path d="M 0 10 Q 0 0 10 0 L 205 0 Q 215 0 215 10 L 215 36 L 0 36 Z" fill="#162032"/>
+    <circle cx="16" cy="18" r="4" fill="#38BDF8"/>
+    <text x="28" y="22" fill="#E2E8F0" class="mono stage-title">1. INGESTION &amp; OCR</text>
+
+    <!-- Node 1.1 -->
+    <g transform="translate(12, 48)">
+      <rect width="191" height="52" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="14" cy="18" r="3" fill="#38BDF8"/>
+      <text x="26" y="21" class="sans card-value">Multi-Source Ingestion</text>
+      <text x="26" y="38" class="sans card-sub">PDFs • Docs • DBs • Streams</text>
+    </g>
+
+    <!-- Arrow -->
+    <path d="M 107 105 L 107 115" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+    <!-- Node 1.2 -->
+    <g transform="translate(12, 118)">
+      <rect width="191" height="52" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="14" cy="18" r="3" fill="#38BDF8"/>
+      <text x="26" y="21" class="sans card-value">Extraction &amp; Vision</text>
+      <text x="26" y="38" class="sans card-sub">EasyOCR • YOLOv8 • Layout</text>
+    </g>
+
+    <!-- Arrow -->
+    <path d="M 107 175 L 107 185" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+    <!-- Node 1.3 -->
+    <g transform="translate(12, 188)">
+      <rect width="191" height="52" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="14" cy="18" r="3" fill="#38BDF8"/>
+      <text x="26" y="21" class="sans card-value">Semantic Chunking</text>
+      <text x="26" y="38" class="sans card-sub">Metadata &amp; Dynamic Bounds</text>
+    </g>
+
+    <!-- Node 1.4: Tag -->
+    <g transform="translate(12, 252)">
+      <rect width="191" height="48" rx="6" fill="#0A101D" stroke="#38BDF8" stroke-opacity="0.3" stroke-width="1"/>
+      <text x="14" y="20" class="mono card-label" fill="#38BDF8">OUTPUT SPEC</text>
+      <text x="14" y="36" class="sans card-sub" fill="#CBD5E1">Dense &amp; Lexical Tokens</text>
+    </g>
+  </g>
+
+  <!-- Flow Connector 1 -> 2 -->
+  <g transform="translate(245, 205)" opacity="0.85">
+    <path d="M 0 0 L 28 0" stroke="#38BDF8" stroke-width="2" stroke-dasharray="4 2"/>
+    <polygon points="28,-4 35,0 28,4" fill="#38BDF8"/>
+  </g>
+
+  <!-- STAGE 2: HYBRID RETRIEVAL -->
+  <g transform="translate(280, 70)">
+    <rect width="215" height="315" rx="10" fill="url(#stage-bg)" stroke="#334155" stroke-width="1"/>
+    <!-- Stage Header -->
+    <path d="M 0 10 Q 0 0 10 0 L 205 0 Q 215 0 215 10 L 215 36 L 0 36 Z" fill="#162032"/>
+    <circle cx="16" cy="18" r="4" fill="#818CF8"/>
+    <text x="28" y="22" fill="#E2E8F0" class="mono stage-title">2. HYBRID RETRIEVAL</text>
+
+    <!-- Node 2.1: Dual Branch -->
+    <g transform="translate(12, 48)">
+      <!-- Branch A: Dense -->
+      <rect width="88" height="66" rx="6" fill="#0F172A" stroke="#818CF8" stroke-width="0.8"/>
+      <text x="8" y="18" class="mono" font-size="10" fill="#818CF8" font-weight="700">DENSE VECTOR</text>
+      <text x="8" y="34" class="sans card-sub">FAISS</text>
+      <text x="8" y="48" class="sans card-sub">PgVector</text>
+      <text x="8" y="60" class="sans card-sub">Pinecone</text>
+
+      <!-- Branch B: Sparse -->
+      <rect x="98" width="93" height="66" rx="6" fill="#0F172A" stroke="#A855F7" stroke-width="0.8"/>
+      <text x="106" y="18" class="mono" font-size="10" fill="#A855F7" font-weight="700">SPARSE LEXICAL</text>
+      <text x="106" y="34" class="sans card-sub">BM25 Ranking</text>
+      <text x="106" y="48" class="sans card-sub">Exact Match</text>
+      <text x="106" y="60" class="sans card-sub">Term Weights</text>
+    </g>
+
+    <!-- Merging Arrows -->
+    <path d="M 56 118 L 56 130 L 107 140" stroke="#818CF8" stroke-width="1.2"/>
+    <path d="M 145 118 L 145 130 L 107 140" stroke="#A855F7" stroke-width="1.2"/>
+
+    <!-- Node 2.2: RRF Fusion -->
+    <g transform="translate(12, 145)">
+      <rect width="191" height="52" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="14" cy="18" r="3" fill="#818CF8"/>
+      <text x="26" y="21" class="sans card-value">Reciprocal Rank Fusion</text>
+      <text x="26" y="38" class="sans card-sub">Rank Averaging &amp; Normalization</text>
+    </g>
+
+    <!-- Arrow -->
+    <path d="M 107 202 L 107 212" stroke="#818CF8" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+    <!-- Node 2.3: Cross-Encoder Rerank -->
+    <g transform="translate(12, 215)">
+      <rect width="191" height="52" rx="6" fill="#0F172A" stroke="#818CF8" stroke-opacity="0.6" stroke-width="1"/>
+      <circle cx="14" cy="18" r="3" fill="#C084FC" class="flow-pulse"/>
+      <text x="26" y="21" class="sans card-value">Cross-Encoder Rerank</text>
+      <text x="26" y="38" class="sans card-sub">Deep Semantic Attention</text>
+    </g>
+
+    <!-- Node 2.4 Tag -->
+    <g transform="translate(12, 275)">
+      <text x="8" y="16" class="sans card-sub" fill="#94A3B8">Top-K Precise Context Chunks</text>
+    </g>
+  </g>
+
+  <!-- Flow Connector 2 -> 3 -->
+  <g transform="translate(495, 205)" opacity="0.85">
+    <path d="M 0 0 L 28 0" stroke="#818CF8" stroke-width="2" stroke-dasharray="4 2"/>
+    <polygon points="28,-4 35,0 28,4" fill="#818CF8"/>
+  </g>
+
+  <!-- STAGE 3: AGENTIC REASONING -->
+  <g transform="translate(530, 70)">
+    <rect width="215" height="315" rx="10" fill="url(#stage-bg)" stroke="#334155" stroke-width="1"/>
+    <!-- Stage Header -->
+    <path d="M 0 10 Q 0 0 10 0 L 205 0 Q 215 0 215 10 L 215 36 L 0 36 Z" fill="#162032"/>
+    <circle cx="16" cy="18" r="4" fill="#EC4899"/>
+    <text x="28" y="22" fill="#E2E8F0" class="mono stage-title">3. AGENTIC ORCHESTRATION</text>
+
+    <!-- Node 3.1: Coordinator -->
+    <g transform="translate(12, 48)">
+      <rect width="191" height="56" rx="6" fill="#1E1B4B" stroke="#6366F1" stroke-width="1"/>
+      <circle cx="14" cy="18" r="3.5" fill="#A855F7" class="flow-pulse"/>
+      <text x="26" y="21" class="sans card-value" fill="#E0E7FF">Coordinator Agent</text>
+      <text x="26" y="38" class="sans card-sub" fill="#C7D2FE">Goal Decomposition &amp; Plan</text>
+    </g>
+
+    <!-- Bidirectional Tool Calling Loop -->
+    <path d="M 60 109 L 60 120" stroke="#EC4899" stroke-width="1.5"/>
+    <polygon points="57,112 60,105 63,112" fill="#EC4899"/>
+    <polygon points="57,117 60,124 63,117" fill="#EC4899"/>
+
+    <path d="M 155 109 L 155 120" stroke="#EC4899" stroke-width="1.5"/>
+    <polygon points="152,112 155,105 158,112" fill="#EC4899"/>
+    <polygon points="152,117 155,124 158,117" fill="#EC4899"/>
+
+    <!-- Node 3.2: Tool Execution -->
+    <g transform="translate(12, 126)">
+      <rect width="191" height="54" rx="6" fill="#0F172A" stroke="#EC4899" stroke-opacity="0.5" stroke-width="1"/>
+      <circle cx="14" cy="18" r="3" fill="#EC4899"/>
+      <text x="26" y="21" class="sans card-value">Dynamic Tool Calling</text>
+      <text x="26" y="38" class="sans card-sub">Web Search • APIs • Code Exec</text>
+    </g>
+
+    <!-- Arrow -->
+    <path d="M 107 185 L 107 195" stroke="#EC4899" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+    <!-- Node 3.3: Synthesis -->
+    <g transform="translate(12, 198)">
+      <rect width="191" height="52" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="14" cy="18" r="3" fill="#EC4899"/>
+      <text x="26" y="21" class="sans card-value">Multi-LLM Synthesis</text>
+      <text x="26" y="38" class="sans card-sub">GPT-4o • Claude • Gemini</text>
+    </g>
+
+    <!-- Node 3.4 Tag -->
+    <g transform="translate(12, 260)">
+      <rect width="191" height="42" rx="6" fill="#0A101D" stroke="#EC4899" stroke-opacity="0.3" stroke-width="1"/>
+      <text x="14" y="18" class="mono card-label" fill="#EC4899">FRAMEWORKS</text>
+      <text x="14" y="32" class="sans card-sub" fill="#CBD5E1">Google ADK • LangChain</text>
+    </g>
+  </g>
+
+  <!-- Flow Connector 3 -> 4 -->
+  <g transform="translate(745, 205)" opacity="0.85">
+    <path d="M 0 0 L 28 0" stroke="#EC4899" stroke-width="2" stroke-dasharray="4 2"/>
+    <polygon points="28,-4 35,0 28,4" fill="#EC4899"/>
+  </g>
+
+  <!-- STAGE 4: SAFETY & PRODUCTION DELIVERY -->
+  <g transform="translate(780, 70)">
+    <rect width="190" height="315" rx="10" fill="url(#stage-bg)" stroke="#334155" stroke-width="1"/>
+    <!-- Stage Header -->
+    <path d="M 0 10 Q 0 0 10 0 L 180 0 Q 190 0 190 10 L 190 36 L 0 36 Z" fill="#162032"/>
+    <circle cx="16" cy="18" r="4" fill="#10B981"/>
+    <text x="28" y="22" fill="#E2E8F0" class="mono stage-title">4. SAFETY &amp; API</text>
+
+    <!-- Node 4.1: UQML Hallucination Check -->
+    <g transform="translate(10, 48)">
+      <rect width="170" height="56" rx="6" fill="#064E3B" stroke="#10B981" stroke-width="1"/>
+      <circle cx="14" cy="18" r="3.5" fill="#34D399" class="flow-pulse"/>
+      <text x="26" y="21" class="sans card-value" fill="#D1FAE5">UQML Grounding</text>
+      <text x="26" y="38" class="sans card-sub" fill="#A7F3D0">Hallucination Mitigation</text>
+    </g>
+
+    <!-- Arrow -->
+    <path d="M 95 109 L 95 120" stroke="#10B981" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+    <!-- Node 4.2: Guardrails & Schema -->
+    <g transform="translate(10, 126)">
+      <rect width="170" height="52" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="14" cy="18" r="3" fill="#10B981"/>
+      <text x="26" y="21" class="sans card-value">Deterministic Schema</text>
+      <text x="26" y="38" class="sans card-sub">Pydantic • Strict JSON</text>
+    </g>
+
+    <!-- Arrow -->
+    <path d="M 95 183 L 95 194" stroke="#10B981" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+    <!-- Node 4.3: FastAPI Production API -->
+    <g transform="translate(10, 198)">
+      <rect width="170" height="54" rx="6" fill="#0A101D" stroke="#10B981" stroke-opacity="0.8" stroke-width="1.2"/>
+      <circle cx="14" cy="18" r="3.5" fill="#34D399"/>
+      <text x="26" y="21" class="sans card-value" fill="#34D399">Production Delivery</text>
+      <text x="26" y="38" class="sans card-sub">FastAPI Async Streaming</text>
+    </g>
+
+    <!-- Node 4.4 Tag -->
+    <g transform="translate(10, 260)">
+      <rect width="170" height="42" rx="6" fill="#064E3B" fill-opacity="0.4" stroke="#10B981" stroke-opacity="0.3" stroke-width="1"/>
+      <text x="12" y="18" class="mono card-label" fill="#34D399">LATENCY &amp; SLA</text>
+      <text x="12" y="32" class="sans card-sub" fill="#D1FAE5">&lt; 150ms TTFT • 99.9% Up</text>
+    </g>
+  </g>
+
+  <!-- Reflection / Self-Correction Loop Line (Bottom of Cards) -->
+  <g opacity="0.75">
+    <path d="M 875 390 L 875 408 L 637 408 L 637 392" stroke="#F59E0B" stroke-width="1.5" stroke-dasharray="5 3" fill="none"/>
+    <polygon points="634,394 637,386 640,394" fill="#F59E0B"/>
+    <text x="755" y="404" fill="#FDE047" class="mono" font-size="10" text-anchor="middle" font-weight="600">
+      ↺ SELF-CORRECTION REFLECTION LOOP (ON HALLUCINATION DETECTED)
+    </text>
+  </g>
+
+  <!-- Bottom Core Standards Summary Bar -->
+  <g transform="translate(30, 424)">
+    <rect width="940" height="44" rx="8" fill="#0E1626" stroke="#1E293B" stroke-width="1"/>
+    <g transform="translate(20, 14)">
+      <circle cx="8" cy="8" r="4" fill="#38BDF8"/>
+      <text x="22" y="12" fill="#E2E8F0" class="sans" font-size="12" font-weight="600">
+        <tspan fill="#38BDF8">CORE PRINCIPLES:</tspan> Deterministic Confidence Guardrails • Hybrid Recall Fusion • Asynchronous FastAPI Microservices • Multi-Agent Tool Autonomy
+      </text>
+    </g>
+  </g>
+</svg>
