@@ -28,6 +28,9 @@
     <a href="https://srilankantechno.blogspot.com/">
       <img src="https://img.shields.io/badge/Tech_Blog-Read%20Articles-FF5722?style=for-the-badge&logo=blogger&logoColor=white" alt="Blog" />
     </a>
+    <a href="https://twitter.com/dilshantilakar1">
+      <img src="https://img.shields.io/badge/Twitter-@dilshantilakar1-1DA1F2?style=for-the-badge&logo=x&logoColor=white" alt="Twitter" />
+    </a>
     <a href="https://komarev.com/ghpvc/?username=lasithadilshan&style=for-the-badge&color=8B5CF6&label=PROFILE+VIEWS">
       <img src="https://komarev.com/ghpvc/?username=lasithadilshan&style=for-the-badge&color=8B5CF6&label=PROFILE+VIEWS" alt="Profile Views" />
     </a>
@@ -159,6 +162,16 @@
 
 ---
 
+### 🔬 [Deep Research Agent](https://github.com/lasithadilshan/deep-research-agent)
+> **Autonomous Web Crawling, Fact Verification & Deep Research Synthesis**  
+> Open-source AI agent designed for autonomous deep web exploration, multi-source evidence collection, cross-verification, and structured analytical report synthesis.
+>
+> [![Open Source](https://img.shields.io/badge/Open--Source-Active-success?style=flat-square&logo=github)](https://github.com/lasithadilshan/deep-research-agent)
+> [![License](https://img.shields.io/badge/License-Apache--2.0-blue?style=flat-square)](https://github.com/lasithadilshan/deep-research-agent)
+> [![Tech](https://img.shields.io/badge/Tech-Python%20%7C%20Autonomous%20Agents%20%7C%20Web%20Scraping%20%7C%20Fact%20Checking-3776AB?style=flat-square)](https://github.com/lasithadilshan/deep-research-agent)
+
+---
+
 ### 🤖 [Career-Ops: Open-Source AI Job Search](https://github.com/lasithadilshan/career-ops)
 > **Local CLI Job Scanner & Resume Tailoring Agent**  
 > CLI-driven AI agent that scans job portals, synthesizes candidate experience, evaluates listings into a structured A-H report with a 1-5 suitability score, and tailors ATS-compliant CVs.
@@ -235,6 +248,14 @@ flowchart TD
     D --> E["🧠 Multi-Agent Reasoning & Synthesis"]
     E --> F["🛡️ Guardrails & Factual Grounding (UQML)"]
     F --> G["🚀 Auditable Output & High-Throughput APIs"]
+
+    style A fill:#0e1526,stroke:#38bdf8,stroke-width:1.5px,color:#f8fafc
+    style B fill:#0e1526,stroke:#818cf8,stroke-width:1.5px,color:#f8fafc
+    style C fill:#0e1526,stroke:#a855f7,stroke-width:1.5px,color:#f8fafc
+    style D fill:#0e1526,stroke:#ec4899,stroke-width:1.5px,color:#f8fafc
+    style E fill:#0e1526,stroke:#6366f1,stroke-width:1.5px,color:#f8fafc
+    style F fill:#0e1526,stroke:#10b981,stroke-width:1.5px,color:#f8fafc
+    style G fill:#0e1526,stroke:#38bdf8,stroke-width:1.5px,color:#f8fafc
 ```
 
 - **Deterministic Guardrails**: Zero tolerance for ungrounded hallucination in enterprise setups; applying semantic confidence scores and structured schema enforcement.
@@ -263,6 +284,7 @@ flowchart TD
     alt="Lasitha Dilshan GitHub Streak" 
     width="58%" 
   />
+  &nbsp;
   <img 
     src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lasithadilshan&theme=tokyonight" 
     alt="Lasitha Dilshan Languages by Repo" 

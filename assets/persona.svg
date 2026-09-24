@@ -48,6 +48,12 @@
     .label { font-size: 12px; fill: #64748B; font-weight: 500; }
     .val { font-size: 13.5px; fill: #F1F5F9; font-weight: 600; }
     .val-highlight { font-size: 13.5px; fill: #38BDF8; font-weight: 700; }
+    
+    @keyframes live-pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.35; }
+    }
+    .pulse-dot { animation: live-pulse 2s infinite ease-in-out; }
   </style>
 
   <!-- Base Container -->
@@ -68,7 +74,7 @@
     <!-- Status Indicators -->
     <g transform="translate(680, -2)">
       <rect width="125" height="22" rx="4" fill="#064E3B" stroke="#10B981" stroke-width="0.8"/>
-      <circle cx="12" cy="11" r="3.5" fill="#34D399"/>
+      <circle cx="12" cy="11" r="3.5" fill="#34D399" class="pulse-dot"/>
       <text x="22" y="15" fill="#D1FAE5" class="mono" font-size="10.5" font-weight="700">STATUS: ACTIVE</text>
     </g>
 
