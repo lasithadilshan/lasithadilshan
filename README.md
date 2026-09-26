@@ -70,6 +70,20 @@
 
 ---
 
+## 🐍 Contribution Graph
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/snake.svg" />
+  <img alt="github-snake" src="./assets/snake-dark.svg" width="100%" />
+</picture>
+
+</div>
+
+---
+
 ## 🏆 Honors, Awards & Certifications
 
 > ### 🥇 1st Place Champion — Virtusa Agentic AI Hackathon
@@ -236,6 +250,16 @@ flowchart TB
   <img width="49%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=lasithadilshan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" alt="GitHub Stats" />
 
 </div>
+
+<br/>
+
+<details open>
+  <summary><b>3D Contribution Graph</b></summary>
+  <br/>
+  <div align="center">
+    <img src="./profile-3d-contrib/profile-night-green.svg" alt="3D Contributions" width="100%" />
+  </div>
+</details>
 
 <br/>
 
