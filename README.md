@@ -1,5 +1,53 @@
 <div align="center">
 
+  <!-- Hero Header Vector Banner -->
+  <a href="https://github.com/lasithadilshan">
+    <img src="./assets/banner.svg" alt="Lasitha Dilshan Thilakarathna - AI Engineer & Generative AI Architect" width="100%" />
+  </a>
+
+  <br/><br/>
+
+  <!-- Dynamic Typing Subtitle -->
+  <a href="https://github.com/lasithadilshan">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2500&pause=800&color=38BDF8&center=true&vCenter=true&width=700&height=45&lines=AI+Engineer+%26+Generative+AI+Architect;Architecting+Autonomous+Multi-Agent+Workflows;Building+Enterprise+RAG+%26+Document+Intelligence;1st+Place+Winner+%E2%80%93+Virtusa+Agentic+AI+Hackathon;Transforming+LLMs+into+Resilient+Production+Systems" alt="Typing Dynamic Subtitle" width="100%" />
+  </a>
+
+  <br/>
+
+  <!-- Key Metrics Badges (Followers, Stars, Profile Views) -->
+  <p align="center">
+    <a href="https://github.com/lasithadilshan?tab=followers">
+      <img src="https://img.shields.io/github/followers/lasithadilshan?label=Followers&style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b27&color=58a6ff" alt="Followers" />
+    </a>
+    <a href="https://github.com/lasithadilshan">
+      <img src="https://img.shields.io/github/stars/lasithadilshan?label=Total%20Stars&style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b27&color=58a6ff" alt="Total Stars" />
+    </a>
+    <a href="https://github.com/lasithadilshan">
+      <img src="https://komarev.com/ghpvc/?username=lasithadilshan&style=for-the-badge&color=blueviolet&labelColor=1a1b27" alt="Profile Views" />
+    </a>
+  </p>
+
+  <!-- Social & Network Badges -->
+  <p align="center">
+    <a href="https://www.linkedin.com/in/lasitha-thilakarathna-3027ab120/" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    <a href="https://lasithadilshan.github.io/lasitha-thilakarathna/" target="_blank">
+      <img src="https://img.shields.io/badge/Portfolio-0EA5E9?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
+    </a>
+    <a href="mailto:dilshantilakaratne29@gmail.com">
+      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+    <a href="https://srilankantechno.blogspot.com/" target="_blank">
+      <img src="https://img.shields.io/badge/Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white" alt="Blog" />
+    </a>
+    <a href="https://twitter.com/dilshantilakar1" target="_blank">
+      <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=x&logoColor=white" alt="Twitter" />
+    </a>
+  </p>
+
+</div>
+
 ---
 
 ## 💻 Engineering Specification & Profile Telemetry
@@ -12,13 +60,13 @@
 
 | 🌐 Parameter                   | ⚡ Operational Specification                                                |
 | :----------------------------- | :-------------------------------------------------------------------------- |
-| **Full Name**            | **Lasitha Dilshan Thilakarathna**                                     |
-| **Core Specialization**  | **AI Engineer & Generative AI Architect**                             |
-| **Experience Depth**     | **5+ Years** (Full-Stack & Cloud ➔ Production AI Systems)            |
-| **Primary Accolade**     | 🏆**1st Place Winner** — Virtusa Agentic AI Hackathon                |
-| **Architectural Focus**  | Autonomous Agents, Enterprise RAG, Vector Search, FastAPI Microservices     |
-| **Location & Timezone**  | Bandaragama, Sri Lanka 🇱🇰`(UTC+05:30)`                                  |
-| **Collaboration Status** | 🟢**Open to high-impact AI Engineering roles, consulting & research** |
+| **Full Name**                  | **Lasitha Dilshan Thilakarathna**                                           |
+| **Core Specialization**        | **AI Engineer & Generative AI Architect**                                   |
+| **Experience Depth**           | **5+ Years** (Full-Stack & Cloud ➔ Production AI Systems)                  |
+| **Primary Accolade**           | 🏆 **1st Place Winner** — Virtusa Agentic AI Hackathon                      |
+| **Architectural Focus**        | Autonomous Agents, Enterprise RAG, Vector Search, FastAPI Microservices     |
+| **Location & Timezone**        | Bandaragama, Sri Lanka 🇱🇰 `(UTC+05:30)`                                        |
+| **Collaboration Status**       | 🟢 **Open to high-impact AI Engineering roles, consulting & research**       |
 
 ---
 
@@ -28,9 +76,9 @@
 >
 > Spearheaded and architected the **Agentic AI Travel Assistant**, competing against enterprise engineering teams. Built autonomous multi-agent task delegation pipelines using Google ADK and OpenAI LLMs for dynamic itinerary planning and automated execution.
 >
-> [![1st Place](<https://img.shields.io/badge/Hackathon-1st%20Place%20Champion-FFD700?style=for-the-badge&logo=trophy&logoColor=black>)](https://github.com/lasithadilshan)
-> [![Domain](<https://img.shields.io/badge/Domain-Agentic%20AI-6366F1?style=for-the-badge&logo=probot&logoColor=white>)](https://github.com/lasithadilshan)
-> [![Framework](<https://img.shields.io/badge/Framework-Google%20ADK%20%7C%20OpenAI-0EA5E9?style=for-the-badge>)](https://github.com/lasithadilshan)
+> [![1st Place](https://img.shields.io/badge/Hackathon-1st%20Place%20Champion-FFD700?style=for-the-badge&logo=trophy&logoColor=black)](https://github.com/lasithadilshan)
+> [![Domain](https://img.shields.io/badge/Domain-Agentic%20AI-6366F1?style=for-the-badge&logo=probot&logoColor=white)](https://github.com/lasithadilshan)
+> [![Framework](https://img.shields.io/badge/Framework-Google%20ADK%20%7C%20OpenAI-0EA5E9?style=for-the-badge)](https://github.com/lasithadilshan)
 
 <br/>
 
@@ -41,16 +89,34 @@
 > - 🎖️ **Custom GenAI Enterprise Pathway** — *Virtusa*
 > - 🎖️ **GenAI Hackathon Certificate of Excellence** — *Virtusa*
 >
-> [![Microsoft](<https://img.shields.io/badge/Certification-Microsoft%20%7C%20LinkedIn-0078D4?style=for-the-badge&logo=microsoft&logoColor=white>)](https://www.linkedin.com/in/lasitha-thilakarathna-3027ab120/)
-> [![Virtusa](<https://img.shields.io/badge/Enterprise%20GenAI-Virtusa%20Certified-FF5A00?style=for-the-badge>)](https://www.linkedin.com/in/lasitha-thilakarathna-3027ab120/)
+> [![Microsoft](https://img.shields.io/badge/Certification-Microsoft%20%7C%20LinkedIn-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)](https://www.linkedin.com/in/lasitha-thilakarathna-3027ab120/)
+> [![Virtusa](https://img.shields.io/badge/Enterprise%20GenAI-Virtusa%20Certified-FF5A00?style=for-the-badge)](https://www.linkedin.com/in/lasitha-thilakarathna-3027ab120/)
+
+---
+
+## 🚀 Featured AI Products & Engineering Systems
+
+<div align="center">
+
+| | Product / System | Description | Status |
+|:--:|---|---|:---:|
+| 🏆 | [**Agentic AI Travel Assistant**](https://github.com/lasithadilshan) | Autonomous multi-agent travel planning system featuring dynamic goal decomposition, real-time itinerary orchestration, and automated execution workflows. | `1st Place Champion` |
+| 🔬 | [**Deep Research Agent**](https://github.com/lasithadilshan/deep-research-agent) | Autonomous web crawling, multi-source evidence extraction, factual cross-verification, and structured research report synthesis. | `Open Source` |
+| 🤖 | [**Career-Ops**](https://github.com/lasithadilshan/career-ops) | Local CLI agent that scans job portals, synthesizes candidate experience, scores listing fit (A-H), and tailors ATS-compliant CVs. | `Open Source` |
+| 🛡️ | [**LLM Hallucination Detector**](https://github.com/lasithadilshan/Hallucination-Detector-App) | UQML-powered output uncertainty quantification platform evaluating whether LLM responses are factually grounded or hallucinated. | `Open Source` |
+| 🏢 | [**Enterprise Functions AI Platform**](https://github.com/lasithadilshan) | Document intelligence & knowledge discovery engine for cross-department semantic search, workflow automation, and unstructured ingestion. | `Enterprise` |
+| 📑 | [**AI MLR Compliance Assistant**](https://github.com/lasithadilshan) | Automated compliance validation engine using OCR extraction, transcript analysis, and regulatory knowledge retrieval to streamline review cycles. | `Enterprise` |
+| 🚗 | [**Streamlit AI Parking Monitor**](https://github.com/lasithadilshan/Streamlit-AI-Parking-Monitor-and-License-Plate-Locator-App) | Computer vision application combining YOLOv8 vehicle tracking, EasyOCR license plate recognition, virtual zones, and SQLite telemetry. | `Open Source` |
+| 📜 | [**Policy Document Analyzer**](https://github.com/lasithadilshan/document-chatbot) | Conversational document intelligence platform enabling domain experts to ingest multi-page policies and execute contextual Q&A with citations. | `Open Source` |
+| 🧪 | [**AI QA Automation Suite**](https://github.com/lasithadilshan) | Generative test scenario & script synthesis engine transforming Jira user stories into edge-case test matrices and automation scripts. | `Enterprise` |
+
+</div>
 
 ---
 
 ## ⚡ Technical Arsenal & Core Stack
 
 <div align="center">
-
-<br/>
 
 ### 🤖 Generative AI, Agents & LLM Orchestration
 
@@ -103,102 +169,7 @@
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![Git](https://img.shields.io/badge/Git_%26_GitHub_CI-F05032?style=for-the-badge&logo=git&logoColor=white)
 
----
-
-## 🚀 Featured Engineering & AI Projects
-
-### 🏆 [Agentic AI Travel Assistant](https://github.com/lasithadilshan)
-
-> **Autonomous Multi-Agent Travel Planning System**
-> Multi-agent autonomous travel planner featuring dynamic goal decomposition, real-time itinerary orchestration, and automated planning workflows.
->
-> [![Status](<https://img.shields.io/badge/Status-1st%20Place%20Winner-FFD700?style=flat-square&logo=trophy&logoColor=black>)](https://github.com/lasithadilshan)
-> [![Architecture](https://img.shields.io/badge/Architecture-Multi--Agent-6366F1?style=flat-square)](https://github.com/lasithadilshan)
-> [![Tech](<https://img.shields.io/badge/Tech-Google%20ADK%20%7C%20OpenAI%20LLMs%20%7C%20Angular%20%7C%20FastAPI-0284C7?style=flat-square>)](https://github.com/lasithadilshan)
-
----
-
-### 🔬 [Deep Research Agent](https://github.com/lasithadilshan/deep-research-agent)
-
-> **Autonomous Web Crawling, Fact Verification & Deep Research Synthesis**
-> Open-source AI agent designed for autonomous deep web exploration, multi-source evidence collection, cross-verification, and structured analytical report synthesis.
->
-> [![Open Source](https://img.shields.io/badge/Open--Source-Active-success?style=flat-square&logo=github)](https://github.com/lasithadilshan/deep-research-agent)
-> [![License](https://img.shields.io/badge/License-Apache--2.0-blue?style=flat-square)](https://github.com/lasithadilshan/deep-research-agent)
-> [![Tech](<https://img.shields.io/badge/Tech-Python%20%7C%20Autonomous%20Agents%20%7C%20Web%20Scraping%20%7C%20Fact%20Checking-3776AB?style=flat-square>)](https://github.com/lasithadilshan/deep-research-agent)
-
----
-
-### 🤖 [Career-Ops: Open-Source AI Job Search](https://github.com/lasithadilshan/career-ops)
-
-> **Local CLI Job Scanner & Resume Tailoring Agent**
-> CLI-driven AI agent that scans job portals, synthesizes candidate experience, evaluates listings into a structured A-H report with a 1-5 suitability score, and tailors ATS-compliant CVs.
->
-> [![Open Source](https://img.shields.io/badge/Open--Source-Active-success?style=flat-square&logo=github)](https://github.com/lasithadilshan/career-ops)
-> [![CLI](<https://img.shields.io/badge/CLI-Local%20Agent-0284C7?style=flat-square>)](https://github.com/lasithadilshan/career-ops)
-> [![Tech](<https://img.shields.io/badge/Tech-Python%20%7C%20AI%20Coding%20CLIs%20%7C%20Structured%20Output-3776AB?style=flat-square>)](https://github.com/lasithadilshan/career-ops)
-
----
-
-### 🛡️ [LLM Hallucination Detector App](https://github.com/lasithadilshan/Hallucination-Detector-App)
-
-> **UQML-Powered Model Output Uncertainty Quantification**
-> Hallucination Detection platform powered by Uncertainty Quantification Machine Learning (UQML) to identify whether LLM outputs are factually grounded or hallucinated.
->
-> [![Open Source](https://img.shields.io/badge/Open--Source-Active-success?style=flat-square&logo=github)](https://github.com/lasithadilshan/Hallucination-Detector-App)
-> [![Evaluation](https://img.shields.io/badge/Evaluation-UQML-E11D48?style=flat-square)](https://github.com/lasithadilshan/Hallucination-Detector-App)
-> [![Tech](<https://img.shields.io/badge/Tech-Python%20%7C%20LLMs%20%7C%20UQML%20%7C%20FastAPI%20%7C%20Streamlit-FF6F00?style=flat-square>)](https://github.com/lasithadilshan/Hallucination-Detector-App)
-
----
-
-### 🏢 [Enterprise Functions AI Platform](https://github.com/lasithadilshan)
-
-> **Document Intelligence & Knowledge Discovery Engine**
-> Enterprise-scale AI platform for internal process automation, multi-department knowledge retrieval, semantic search, workflow monitoring, and unstructured document ingestion.
->
-> [![Tier](https://img.shields.io/badge/Tier-Enterprise-8B5CF6?style=flat-square)](https://github.com/lasithadilshan)
-> [![Pipeline](<https://img.shields.io/badge/Pipeline-Production%20RAG-059669?style=flat-square>)](https://github.com/lasithadilshan)
-> [![Tech](<https://img.shields.io/badge/Tech-Angular%20%7C%20Python%20%7C%20FastAPI%20%7C%20FAISS%20%7C%20Vector%20DBs-0284C7?style=flat-square>)](https://github.com/lasithadilshan)
-
----
-
-### 📑 [AI-Powered MLR Compliance Assistant](https://github.com/lasithadilshan)
-
-> **Medical, Legal & Regulatory Review Agent**
-> Automated compliance validation engine using OCR extraction, transcript analysis, and regulatory knowledge retrieval to streamline approval cycles and ensure audit adherence.
->
-> [![Domain](<https://img.shields.io/badge/Domain-Compliance%20AI-0284C7?style=flat-square>)](https://github.com/lasithadilshan)
-> [![Tech](<https://img.shields.io/badge/Tech-Angular%20%7C%20FastAPI%20%7C%20RAG%20%7C%20FAISS%20%7C%20Agent%20Workflows-6366F1?style=flat-square>)](https://github.com/lasithadilshan)
-
----
-
-### 🚗 [Streamlit AI Parking Monitor &amp; Plate Locator](https://github.com/lasithadilshan/Streamlit-AI-Parking-Monitor-and-License-Plate-Locator-App)
-
-> **Computer Vision & OCR Spatial Telemetry**
-> End-to-end computer vision application combining YOLOv8 object tracking, EasyOCR text extraction, virtual zone mapping, and persistent SQLite telemetry into an interactive dashboard.
->
-> [![Computer Vision](<https://img.shields.io/badge/Computer%20Vision-YOLOv8-FF6F00?style=flat-square>)](https://github.com/lasithadilshan/Streamlit-AI-Parking-Monitor-and-License-Plate-Locator-App)
-> [![Tech](<https://img.shields.io/badge/Tech-Python%20%7C%20YOLOv8%20%7C%20EasyOCR%20%7C%20Streamlit%20%7C%20OpenCV-3776AB?style=flat-square>)](https://github.com/lasithadilshan/Streamlit-AI-Parking-Monitor-and-License-Plate-Locator-App)
-
----
-
-### 📜 [Policy Document Intelligence Analyzer](https://github.com/lasithadilshan/document-chatbot)
-
-> **Conversational RAG for Complex PDF Documents**
-> Conversational document intelligence system enabling domain experts to ingest multi-page policies and execute contextual Q&A with citations.
->
-> [![Model](<https://img.shields.io/badge/Model-Gemini%20%2B%20LangChain-4285F4?style=flat-square>)](https://github.com/lasithadilshan/document-chatbot)
-> [![Tech](<https://img.shields.io/badge/Tech-Python%20%7C%20FastAPI%20%7C%20LangChain%20%7C%20Gemini%20%7C%20FAISS-0284C7?style=flat-square>)](https://github.com/lasithadilshan/document-chatbot)
-
----
-
-### 🧪 [AI-Powered QA Test Automation Suite](https://github.com/lasithadilshan)
-
-> **Generative Test Scenario & Script Synthesis**
-> Converts business requirements and Jira user stories into exhaustive edge-case test matrices, acceptance criteria, and automation-ready test scripts.
->
-> [![Testing](<https://img.shields.io/badge/Testing-GenAI%20Automation-10B981?style=flat-square>)](https://github.com/lasithadilshan)
-> [![Tech](<https://img.shields.io/badge/Tech-RAG%20%7C%20LLMs%20%7C%20Prompt%20Eng%20%7C%20Python%20%7C%20Automation-6366F1?style=flat-square>)](https://github.com/lasithadilshan)
+</div>
 
 ---
 
@@ -257,9 +228,37 @@ flowchart TB
 
 ---
 
-## 📊 Live GitHub Analytics & Consistency
+## 📊 GitHub Analytics & Live Activity
 
 <div align="center">
+
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=lasithadilshan&theme=tokyonight&hide_border=true&background=0D1117&stroke=58a6ff&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" alt="GitHub Streak" />
+  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=lasithadilshan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" alt="GitHub Stats" />
+
+</div>
+
+<br/>
+
+<details>
+  <summary><b>📈 Click to view detailed language & profile telemetry</b></summary>
+  <br/>
+  <div align="center">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lasithadilshan&theme=github_dark" width="100%" alt="Profile Details" />
+    <br/><br/>
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lasithadilshan&theme=github_dark" width="49%" alt="Repos per Language" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lasithadilshan&theme=github_dark" width="49%" alt="Most Commit Language" />
+  </div>
+</details>
+
+<br/>
+
+<div align="center">
+
+### 💡 Daily Engineering Wisdom
+
+![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+
+</div>
 
 ---
 
@@ -289,6 +288,11 @@ flowchart TB
 
 <br/>
 
+<!-- Footer Waving Capsule -->
 <div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+
+  **Bandaragama, Sri Lanka** | AI Engineer & Generative AI Architect | 1st Place Champion, Virtusa Hackathon
+
   <sub>Built with precision, passion, and engineering rigor • © <b>Lasitha Dilshan Thilakarathna</b></sub>
 </div>
