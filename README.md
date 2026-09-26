@@ -233,7 +233,7 @@ flowchart TB
 <div align="center">
 
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=lasithadilshan&theme=tokyonight&hide_border=true&background=0D1117&stroke=58a6ff&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" alt="GitHub Streak" />
-  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=lasithadilshan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" alt="GitHub Stats" />
+  <img width="49%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=lasithadilshan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" alt="GitHub Stats" />
 
 </div>
 
@@ -243,10 +243,10 @@ flowchart TB
   <summary><b>📈 Click to view detailed language & profile telemetry</b></summary>
   <br/>
   <div align="center">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lasithadilshan&theme=github_dark" width="100%" alt="Profile Details" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lasithadilshan&theme=tokyonight" width="100%" alt="Profile Details" />
     <br/><br/>
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lasithadilshan&theme=github_dark" width="49%" alt="Repos per Language" />
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lasithadilshan&theme=github_dark" width="49%" alt="Most Commit Language" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lasithadilshan&theme=tokyonight" width="49%" alt="Repos per Language" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lasithadilshan&theme=tokyonight" width="49%" alt="Most Commit Language" />
   </div>
 </details>
 
