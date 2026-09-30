@@ -22,6 +22,9 @@
     <a href="https://github.com/lasithadilshan">
       <img src="https://img.shields.io/github/stars/lasithadilshan?label=Total%20Stars&style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b27&color=58a6ff" alt="Total Stars" />
     </a>
+    <a href="https://github.com/sponsors/lasithadilshan" target="_blank">
+      <img src="https://img.shields.io/badge/Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor" />
+    </a>
     <a href="https://github.com/lasithadilshan">
       <img src="https://komarev.com/ghpvc/?username=lasithadilshan&style=for-the-badge&color=blueviolet&labelColor=1a1b27" alt="Profile Views" />
     </a>
@@ -281,6 +284,29 @@ flowchart TB
 ### 💡 Daily Engineering Wisdom
 
 ![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+
+</div>
+
+---
+
+## 💖 Support My Open-Source & AI Research
+
+<div align="center">
+
+  <a href="https://github.com/sponsors/lasithadilshan" target="_blank">
+    <img src="./assets/sponsor.svg" alt="Sponsor Lasitha Thilakarathna on GitHub Sponsors" width="100%" />
+  </a>
+
+  <br/><br/>
+
+  <p align="center">
+    <a href="https://github.com/sponsors/lasithadilshan" target="_blank">
+      <img src="https://img.shields.io/badge/GitHub%20Sponsors-Support%20My%20Work-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="GitHub Sponsors" />
+    </a>
+    <a href="https://github.com/sponsors/lasithadilshan" target="_blank">
+      <img src="https://img.shields.io/badge/Sponsor%20Tiers-Monthly%20%7C%20One--Time-8B5CF6?style=for-the-badge&logo=heart&logoColor=white" alt="Sponsor Tiers" />
+    </a>
+  </p>
 
 </div>
 

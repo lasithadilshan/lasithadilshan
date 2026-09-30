@@ -1,0 +1,185 @@
+<svg fill="none" viewBox="0 0 1000 240" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="hud-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C16"/>
+      <stop offset="50%" stop-color="#0C1222"/>
+      <stop offset="100%" stop-color="#060913"/>
+    </linearGradient>
+
+    <!-- Glowing Accent Gradients -->
+    <linearGradient id="sponsor-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EC4899" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#A855F7" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.85"/>
+    </linearGradient>
+
+    <linearGradient id="btn-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#DB2777"/>
+      <stop offset="50%" stop-color="#E11D48"/>
+      <stop offset="100%" stop-color="#BE185D"/>
+    </linearGradient>
+
+    <linearGradient id="heart-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F43F5E"/>
+      <stop offset="50%" stop-color="#EC4899"/>
+      <stop offset="100%" stop-color="#D946EF"/>
+    </linearGradient>
+
+    <linearGradient id="avatar-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E1B4B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+
+    <!-- Neon Glow Filters -->
+    <filter id="pink-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="35" result="blur"/>
+    </filter>
+
+    <filter id="btn-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="10" flood-color="#EC4899" flood-opacity="0.45"/>
+    </filter>
+
+    <!-- Dot Grid Pattern -->
+    <pattern id="dot-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#334155" fill-opacity="0.35"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    
+    a { cursor: pointer; text-decoration: none; }
+    .cta-btn { cursor: pointer; transition: transform 0.2s ease, opacity 0.2s ease; }
+    .cta-btn:hover { opacity: 0.9; filter: brightness(1.12); }
+    .interactive-link { cursor: pointer; }
+    .interactive-link:hover text { fill: #38BDF8; }
+    
+    @keyframes pulse-dot {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.35; }
+    }
+    @keyframes heart-beat {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .pulse-dot { animation: pulse-dot 2s infinite ease-in-out; }
+    .beating-heart { transform-origin: 90px 128px; animation: heart-beat 1.8s infinite ease-in-out; cursor: pointer; }
+  </style>
+
+  <!-- Ambient Glow Blobs -->
+  <circle cx="90" cy="132" r="70" fill="#EC4899" fill-opacity="0.12" filter="url(#pink-glow)"/>
+  <circle cx="860" cy="132" r="80" fill="#E11D48" fill-opacity="0.1" filter="url(#pink-glow)"/>
+
+  <!-- Base Container Frame -->
+  <rect x="2" y="2" width="996" height="236" rx="14" fill="url(#hud-bg)"/>
+  <rect x="2" y="2" width="996" height="236" rx="14" fill="url(#dot-grid)"/>
+  <rect x="2" y="2" width="996" height="236" rx="14" fill="none" stroke="url(#sponsor-border)" stroke-width="1.5"/>
+
+  <!-- Top Dashboard Bar -->
+  <g transform="translate(26, 20)">
+    <!-- Terminal Indicator Dots -->
+    <circle cx="6" cy="6" r="4.5" fill="#EF4444"/>
+    <circle cx="22" cy="6" r="4.5" fill="#F59E0B"/>
+    <circle cx="38" cy="6" r="4.5" fill="#10B981"/>
+
+    <!-- Telemetry Title -->
+    <text x="58" y="10" fill="#EC4899" class="mono" font-size="11.5" font-weight="700" letter-spacing="1.5">GITHUB SPONSORS // OPEN SOURCE SPONSORSHIP</text>
+
+    <!-- Status Indicators -->
+    <a href="https://github.com/sponsors/lasithadilshan" xlink:href="https://github.com/sponsors/lasithadilshan" target="_blank" class="interactive-link">
+      <g transform="translate(768, -2)">
+        <rect width="180" height="22" rx="4" fill="#2E1065" stroke="#A855F7" stroke-width="0.8"/>
+        <circle cx="12" cy="11" r="3.5" fill="#EC4899" class="pulse-dot"/>
+        <text x="24" y="15" fill="#FDF2F8" class="mono" font-size="10" font-weight="700">STATUS: ACCEPTING TIERS</text>
+      </g>
+    </a>
+  </g>
+
+  <!-- Divider Line -->
+  <line x1="24" y1="46" x2="976" y2="46" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- ================= LEFT: AVATAR / SPONSOR EMBLEM ================= -->
+  <a href="https://github.com/lasithadilshan" xlink:href="https://github.com/lasithadilshan" target="_blank" aria-label="Visit Lasitha Dilshan Profile">
+    <g class="beating-heart">
+      <!-- Glowing Ring -->
+      <circle cx="90" cy="128" r="44" fill="url(#avatar-bg)" stroke="url(#heart-gradient)" stroke-width="2"/>
+      <!-- Octicon Heart Vector Path -->
+      <g transform="translate(68, 106) scale(2.75)">
+        <path fill="url(#heart-gradient)" d="m8 14.25.345.666a.75.75 0 0 1-.69 0l-.008-.004-.018-.01a7.152 7.152 0 0 1-.31-.17 22.055 22.055 0 0 1-3.434-2.414C2.045 10.731 0 8.35 0 5.5 0 2.836 2.086 1 4.25 1 5.797 1 7.153 1.802 8 3.02 8.847 1.802 10.203 1 11.75 1 13.914 1 16 2.836 16 5.5c0 2.85-2.045 5.231-3.885 6.818a22.066 22.066 0 0 1-3.744 2.584l-.018.01-.006.003h-.002ZM4.25 2.5c-1.336 0-2.75 1.164-2.75 3 0 2.15 1.58 4.144 3.365 5.682A20.58 20.58 0 0 0 8 13.393a20.58 20.58 0 0 0 3.135-2.211C12.92 9.644 14.5 7.65 14.5 5.5c0-1.836-1.414-3-2.75-3-1.373 0-2.609.986-3.029 2.456a.749.749 0 0 1-1.442 0C6.859 3.486 5.623 2.5 4.25 2.5Z"/>
+      </g>
+    </g>
+
+    <!-- Username Badge Under Heart -->
+    <g transform="translate(40, 186)">
+      <rect width="100" height="20" rx="10" fill="#131D31" stroke="#334155" stroke-width="0.8"/>
+      <text x="50" y="14" text-anchor="middle" fill="#94A3B8" class="mono" font-size="9.5" font-weight="600">@lasithadilshan</text>
+    </g>
+  </a>
+
+  <!-- ================= CENTER: CONTENT & COPY ================= -->
+  <g transform="translate(162, 64)">
+    <!-- Header Title -->
+    <a href="https://github.com/sponsors/lasithadilshan" xlink:href="https://github.com/sponsors/lasithadilshan" target="_blank" class="interactive-link">
+      <text x="0" y="20" fill="#F8FAFC" class="sans" font-size="18" font-weight="800" letter-spacing="-0.3">
+        Sponsor Lasitha Thilakarathna on GitHub Sponsors
+      </text>
+    </a>
+
+    <!-- Mission Statement -->
+    <text x="0" y="47" fill="#CBD5E1" class="sans" font-size="12.5" font-weight="400">
+      Building AI-powered SaaS, full-stack applications, and open-source autonomous tools.
+    </text>
+    <text x="0" y="67" fill="#CBD5E1" class="sans" font-size="12.5" font-weight="400">
+      Focused on Generative AI, multi-agent workflows, and resilient enterprise production systems.
+    </text>
+    <text x="0" y="87" fill="#94A3B8" class="sans" font-size="12" font-weight="400">
+      Support my work to help me build and maintain more impactful open-source AI projects 🚀
+    </text>
+
+    <!-- Pills / Categories -->
+    <g transform="translate(0, 112)">
+      <!-- Pill 1 -->
+      <rect width="145" height="22" rx="4" fill="#0C2A4A" stroke="#38BDF8" stroke-width="0.8"/>
+      <text x="72" y="15" text-anchor="middle" fill="#7DD3FC" class="mono" font-size="10" font-weight="700">🤖 AGENTIC AI &amp; RAG</text>
+
+      <!-- Pill 2 -->
+      <rect x="155" width="150" height="22" rx="4" fill="#2E1065" stroke="#A855F7" stroke-width="0.8"/>
+      <text x="230" y="15" text-anchor="middle" fill="#E9D5FF" class="mono" font-size="10" font-weight="700">⚡ OPEN SOURCE TOOLS</text>
+
+      <!-- Pill 3 -->
+      <rect x="315" width="145" height="22" rx="4" fill="#4A044E" stroke="#EC4899" stroke-width="0.8"/>
+      <text x="387" y="15" text-anchor="middle" fill="#FBCFE8" class="mono" font-size="10" font-weight="700">🚀 COMMUNITY FUEL</text>
+    </g>
+  </g>
+
+  <!-- ================= RIGHT: INTERACTIVE CTA BUTTON ================= -->
+  <a href="https://github.com/sponsors/lasithadilshan" xlink:href="https://github.com/sponsors/lasithadilshan" target="_blank" aria-label="Sponsor Lasitha on GitHub Sponsors">
+    <g transform="translate(775, 88)" class="cta-btn" cursor="pointer">
+      <!-- Button Glow Base -->
+      <rect width="185" height="50" rx="9" fill="url(#btn-gradient)" filter="url(#btn-shadow)"/>
+      <rect width="185" height="50" rx="9" fill="none" stroke="#F472B6" stroke-width="1"/>
+
+      <!-- Octicon Heart Vector in Button -->
+      <g transform="translate(24, 16) scale(1.15)">
+        <path fill="#FFFFFF" d="m8 14.25.345.666a.75.75 0 0 1-.69 0l-.008-.004-.018-.01a7.152 7.152 0 0 1-.31-.17 22.055 22.055 0 0 1-3.434-2.414C2.045 10.731 0 8.35 0 5.5 0 2.836 2.086 1 4.25 1 5.797 1 7.153 1.802 8 3.02 8.847 1.802 10.203 1 11.75 1 13.914 1 16 2.836 16 5.5c0 2.85-2.045 5.231-3.885 6.818a22.066 22.066 0 0 1-3.744 2.584l-.018.01-.006.003h-.002ZM4.25 2.5c-1.336 0-2.75 1.164-2.75 3 0 2.15 1.58 4.144 3.365 5.682A20.58 20.58 0 0 0 8 13.393a20.58 20.58 0 0 0 3.135-2.211C12.92 9.644 14.5 7.65 14.5 5.5c0-1.836-1.414-3-2.75-3-1.373 0-2.609.986-3.029 2.456a.749.749 0 0 1-1.442 0C6.859 3.486 5.623 2.5 4.25 2.5Z"/>
+      </g>
+
+      <!-- Button Text -->
+      <text x="56" y="31" fill="#FFFFFF" class="sans" font-size="15" font-weight="700" letter-spacing="0.2">
+        Sponsor Me
+      </text>
+
+      <!-- Arrow Indicator -->
+      <g transform="translate(152, 19)">
+        <path d="M 0 6 L 8 6 M 5 2 L 9 6 L 5 10" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+
+      <!-- Subtext Under Button -->
+      <text x="92" y="78" text-anchor="middle" fill="#64748B" class="mono" font-size="10" font-weight="600">
+        One-time &amp; Monthly Tiers
+      </text>
+    </g>
+  </a>
+</svg>
